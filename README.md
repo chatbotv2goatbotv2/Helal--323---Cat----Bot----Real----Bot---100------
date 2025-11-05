@@ -1,77 +1,178 @@
-<div align="center">
+---------
 
-  <!-- Header typing + avatar -->
+### ✦✨ 𝐇𝐄𝐋𝐀𝐋 𝐂𝐀𝐓 𝐆𝐎𝐀𝐓 𝐁𝐎𝐓 ✨✦
+
+❖ **`A Messenger Multi Device Bot To Take Your Messenger To Another Level!`** 
+
+
+
+Assalamualaikum Everyone!  
+**𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐌𝐘 𝐂𝐀𝐓 𝐆𝐎𝐀𝐓 𝐁𝐎𝐓**
+
+![Box-shaped Imege](https://i.imgur.com/IhjLvb0.jpeg)
+
+<p align="center" style="animation: glow 2s infinite alternate; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <span style="font-size: 24px; font-weight: bold;"<p align="center">
+  <a href="#">`𝐆𝐎𝐀𝐓 𝐂𝐀𝐓 𝐁𝐎𝐓 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃 𝐁𝐘 𝐇𝐄𝐋𝐀𝐋`"</span><br>
   <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=500&color=00FFD1&center=true&vCenter=true&width=800&lines=🤖+Goat+Bot+V2+—+by+𝐌𝐨𝐡𝐚𝐦𝐦𝐚𝐝+𝐀𝐤𝐚𝐬𝐡+🐐" alt="Goat Bot V2"/>
-  </p>
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=cyan&center=true&vCenter=true&multiline=false&lines=`Helal`" alt="">
+</p>
 
-  <img src="https://i.imgur.com/bMtWFb6.jpeg" width="600" style="border-radius:50%;margin-top:10px;margin-bottom:10px;" alt="Mohammad Akash"/>
+-------
 
-  <!-- Sub-heading animated -->
-  <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00C4FF&center=true&vCenter=true&width=580&lines=🚀+Goat+Bot+V2+Reloaded;⚡+Built+by+Mohammad+Akash;💫+Fast%2C+Smart+%26+Reliable;💥+Messenger+Bot+Evolution" alt="sub"/>
-  </p>
+ <p align="center">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=cyan&center=true&vCenter=true&multiline=false&lines=`𝐇𝐄𝐋𝐀𝐋+𝐆𝐎𝐀𝐓+𝐂𝐚𝐭+𝐁𝐨𝐭`" alt="">
 
-  <hr style="width:90%;opacity:0.2"/>
+<br>
 
-  <!-- About -->
-  <h2>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2500&color=00FFD1&center=true&vCenter=true&width=760&lines=🌟+About;Goat+Bot+V2+—+A+next-level+Facebook+Messenger+bot,+redefined+by+Mohammad+Akash." alt="about-typing" />
-  </h2>
+--------
 
-  <!-- Features -->
-  <h3>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=4000&pause=400&color=FFB86B&center=true&vCenter=true&width=760&lines=🛠+Features" alt="features-title"/>
-  </h3>
+_______
+### <br>  >❖𝗠𝗔𝗜𝗡 𝗬𝗠𝗟 𝗗𝗘𝗣𝗟𝗢𝗬_𝗪𝗢𝗥𝗞𝗙𝗟𝗢𝗪𝗦 ❖
+```
+name: Node.js CI
 
-  <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3500&pause=300&color=FFFFFF&center=true&vCenter=true&width=760&lines=🚀+Auto+Reply+%26+Smart+Commands;🎭+Welcome+%2F+Leave+System;📦+Custom+Commands;🕹️+Admin+Tools+%26+Fun+Features;🌍+Multi-language+Support+(EN,+BN)" alt="features-list"/>
-  </p>
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
-  <hr style="width:80%;opacity:0.12"/>
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-  <!-- Developer Info -->
-  <h3>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2800&pause=300&color=00C4FF&center=true&vCenter=true&width=760&lines=💡+Developer+Info" alt="dev-title"/>
-  </h3>
+    strategy:
+      matrix:
+        node-version: [20.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
-  <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=200&color=00FFD1&center=true&vCenter=true&width=760&lines=👑+Developer:+Mohammad+Akash;⚙️+Based+on:+Goat+Bot+V2+Framework;📆+Version:+2.0+(Custom+Edition)" alt="dev-lines"/>
-  </p>
+    steps:
+    # Step to check out the repository code
+    - uses: actions/checkout@v2
 
-  <!-- Social Links -->
-  <p align="center" style="margin-top:10px;">
-    <a href="https://facebook.com/arakashiam" target="_blank">
-      <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
-    </a>
-    <a href="https://t.me/arakashiam" target="_blank" style="margin-left:8px;">
-      <img src="https://img.shields.io/badge/Telegram-0088CC?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
-    </a>
-  </p>
+    # Step to set up the specified Node.js version
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
 
-  <hr style="width:80%;opacity:0.12"/>
+    # Step to install dependencies
+    - name: Install dependencies
+      run: npm install
 
-  <!-- Credits -->
-  <h3>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2600&pause=300&color=FF6B6B&center=true&vCenter=true&width=760&lines=❤️+Credits" alt="credits-title"/>
-  </h3>
+    # Step to run the bot with the correct port
+    - name: Start the bot
+      env:
+        PORT: 8080
+      run: npm start
+```
 
-  <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2800&pause=200&color=FF8C6B&center=true&vCenter=true&width=760&lines=Special+thanks+to+NTKhang+(original+creator)+for+the+base+framework." alt="credits-lines"/>
-  </p>
+______✨⚡🕊️
 
-  <hr style="width:80%;opacity:0.12"/>
+ <p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=KAKASHI-V5&show_icons=true&theme=radical" alt="GitHub Stats" />
+</p>
 
-  <!-- Call-to-action -->
-  <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFD1&center=true&vCenter=true&width=620&lines=Made+with+%E2%9D%A4%EF%B8%8F+by+Mohammad+Akash;Follow+on+FB+and+TG+for+updates!" alt="cta" />
-  </p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KAKASHI-V5&theme=radical" alt="GitHub Streak" />
+</p> 
 
-  <!-- Footer -->
-  <p align="center" style="margin-top:10px;">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=14&duration=2200&pause=200&color=FFFFFF&center=true&vCenter=true&width=760&lines=⚡+Ready+to+use+%7C+Premium+style+available+%7C+Contact:+@arakashiam" alt="footer-typing"/>
-  </p>
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer" style="margin-top:14px;"/>
+_______⚡✨🫡
 
-</div>
+## 🔥 Features  
+
+**• Auto Chat**  
+Enjoy automatic and seamless conversations through natural language processing.  
+
+**• Photo Editing**  
+Edit professional quality photos using our advanced commands, no additional apps needed.  
+
+**• Image Generation**  
+Create unique images using our cutting-edge text-to-image technology.  
+
+**• Video Downloader**  
+Download HD videos from YouTube, Facebook, TikTok and other platforms.  
+
+**• Interactive Games**  
+Play 20+ fun games directly in messenger, no installation hassle!  
+
+**• Fun Commands**  
+Surprise your friends with hundreds of fun commands!  
+___
+
+
+---
+
+
+
+
+## 👨‍💻 **ABOUT THE DEVELOPER**  
+  
+**Name:** **`Helal`**  
+**Nice Name:** **`Helal`**  
+**Profession:** **`𝐃𝐈𝐆𝐈𝐓𝐀𝐋 𝐌𝐀𝐑𝐊𝐄𝐓𝐈𝐍𝐆 & 𝐂𝐇𝐀𝐓 𝐁𝐎𝐓 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑`**  
+**Location:** **`Jamalpur <> 𝐁𝐀𝐍𝐆𝐋𝐀𝐃𝐄𝐒𝐇`**  
+
+### 📞 **CONTACT INFORMATION**  
+- **WhatsApp:** **[WHATSAPP ID](https://wa.me/+880173489150)**  
+- **Facebook:** **[Facebook ID](https://facebook.com/@helal323)**  
+- **Messenger:** **[Message Me](https://m.me/61580156099497)**
+
+- 
+
+### 🚀 **DEVELOPMENT APPROACH**  
+- 💻 **Copy-paste techniques with customizations**  
+- 🤝 **Collaborative development with friends**  
+- 🤖 **AI-powered using ChatGPT and other advanced tools**  
+
+
+
+
+---
+
+
+
+
+
+## ❖ SUPPORT  
+If you need any help, you can contact the admin.
+Please do not disturb the admin unless you have a special need. Thank you! 
+
+<p align="center">
+  <a href="https://wa.me/+8801964467614?text=AssalamuAlaikum%20Admin%20ALVI%20ISLAM%20Need%20Help%20Please%20Brother%20🫶">
+    <img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+  </a>
+  <a href="https://m.me/100078859776449">
+    <img alt="Messenger" src="https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white">
+  </a>
+</p>
+
+---
+
+## ✨ Special Thanks ✨
+
+- 😁 ** 𝐍𝐓𝐊 𝐁𝐎𝐓 𝐌𝐀𝐈𝐍 𝐎𝐖𝐍𝐄� 𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓 𝐁𝐘 𝐒𝐇𝐈𝐅𝐀𝐓 𝐀𝐋𝐋 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐅𝐈𝐗 𝐀𝐍𝐃 𝐌𝐀𝐊𝐄 𝐁𝐘 𝐇𝐄𝐋𝐀𝐋�**  
+- 😜 **𝐇𝐞𝐥𝐚𝐥 𝐂𝐚𝐭 𝐁𝐨𝐭**
+---
+
+💖 **𝗧𝗵𝗮𝗻𝗸 𝗬𝗼𝘂 𝗙𝗼𝗿 𝗖𝗵𝗼𝗼𝘀𝗶𝗻𝗴 𝐇𝐄𝐋𝐀𝐋 𝗚𝗼𝗮𝘁 𝗕𝗼𝘁!**  
+🗓️ *Release Date:* `03/10/2025 at 12:00`  
+⭐ **𝐏𝐥𝐞𝐚𝐬𝐞 𝐝𝐨𝐧'𝐭 𝐟𝐨𝐫𝐠𝐞𝐭 𝐭𝐨 𝐠𝐢𝐯𝐞 𝐚 𝐬𝐭𝐚𝐫 𝐚𝐟𝐭𝐞𝐫 𝐟𝐨𝐫𝐤𝐢𝐧𝐠! 𝐈𝐭 𝐫𝐞𝐚𝐥𝐥𝐲 𝐡𝐞𝐥𝐩𝐬!**
+
+---
+
+<p align="center">
+  <img src="https://img.icons8.com/emoji/48/000000/star-emoji.png" alt="Star" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/alvi-boss"><img src="https://img.icons8.com/fluency/48/000000/github.png" alt="GitHub"></a>
+  <a href="https://wa.me/+966505748978"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp"></a>
+  <a href="https://facebook.com/100082607436864"><img src="https://img.icons8.com/fluency/48/000000/facebook.png" alt="Facebook"></a>
+  <a href="https://t.me/AKPremiumZone"><img src="https://img.icons8.com/color/48/000000/telegram-app.png" alt="Telegram"></a>
+  <a href="https://youtube.com/@SAUniqueBro"><img src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="YouTube"></a>
+</p>
+
+**𝐈 𝐡𝐨𝐩𝐞 𝐲𝐨𝐮 𝐞𝐧𝐣𝐨𝐲 𝐦𝐲 𝐟𝐨𝐫𝐤! 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐬𝐮𝐩𝐩𝐨𝐫𝐭𝐢𝐧𝐠 𝐭𝐡𝐞 𝐇𝐞𝐥𝐚𝐥 𝐠𝐨𝐚𝐭 𝐜𝐡𝐚𝐭 𝐛𝐨𝐭 𝐜𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲!**
