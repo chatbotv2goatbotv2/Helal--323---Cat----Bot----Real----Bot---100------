@@ -4,8 +4,8 @@ const baseApiUrl = async () => {
 };
 
 module.exports.config = {
-    name: "bby",
-    aliases: ["hianta", "hina", "bby", "Talk", "bot", "hinata"],
+    name: "hinata",
+    aliases: ["hinata", "hi", "hina", "talk", "bot", "chat"],
     version: "6.9.0",
     author: "Helal",
     countDown: 0,
@@ -25,7 +25,7 @@ module.exports.onStart = async ({ api, event, args, usersData }) => {
 
     try {
         if (!args[0]) {
-            const ran = ["I'm 𝙷𝚒𝚗𝚊𝚝𝚊 Baby 🎀", "Hi how are you", "Dakis ken 😾 🐥 ", "type !Hinata"];
+            const ran = ["Bolo baby", "hum", "type help baby", "type !baby hi"];
             return api.sendMessage(ran[Math.floor(Math.random() * ran.length)], event.threadID, event.messageID);
         }
 
@@ -147,9 +147,9 @@ module.exports.onReply = async ({ api, event, Reply }) => {
 module.exports.onChat = async ({ api, event, message }) => {
     try {
         const body = event.body ? event.body.toLowerCase() : "";
-        if (body.startsWith("baby") || body.starrsWith("Hinata") || body.startsWith("bot") || body.startsWith("Hina") || body.startsWith("হিনাটা") || body.startsWith("হিনাতা")) {
+        if (body.startsWith("baby") || body.startsWith("hinata") || body.startsWith("bot") || body.startsWith("hina") || body.startsWith("হিনাতা") || body.startsWith("হিনাটা")) {
             const arr = body.replace(/^\S+\s*/, "");
-            const randomReplies = ["Bolo🎀", "Yes I'm here", "Dakis ken 😾?", "I'm 𝙷𝚒𝚗𝚊𝚝𝚊 bby"];
+            const randomReplies = ["Bolo 🎀", "I'm Hinata how are you", "Dakis ken 😾?", "Yes I'm 𝙷𝚒𝚗𝚊𝚝𝚊 bby"];
             if (!arr) {
                 await api.sendMessage(randomReplies[Math.floor(Math.random() * randomReplies.length)], event.threadID, (error, info) => {
                     if (!info) message.reply("info obj not found");
